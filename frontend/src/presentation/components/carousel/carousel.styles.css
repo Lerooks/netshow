@@ -1,0 +1,44 @@
+.carousel .swiper {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel .swiper {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+.carousel .swiper-button-prev::after,
+.carousel .swiper-button-next::after {
+  content: "";
+  display: none;
+}
+
+.carousel .swiper-button-prev,
+.carousel .swiper-button-next {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  color: #ffffff;
+  top: 0;
+  transition: 0.3s ease;
+  z-index: 2;
+  pointer-events: all;
+}
+
+.carousel .swiper-button-disabled {
+  cursor: not-allowed !important;
+}
+
+.carousel .swiper-button-prev {
+  left: auto;
+  right: 96px;
+}
+
+.swiper-button-next {
+  left: auto;
+  right: 48px;
+}
