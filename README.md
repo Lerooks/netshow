@@ -49,12 +49,12 @@ backend/
 
 ---
 
-## 🔌 **Installation and Execution**
+## **Installation and Execution**
 
 ### 1️⃣ Clone the repository:
 
 ```bash
-
+git clone git@github.com:Lerooks/netshow.git
 ```
 
 ### 2️⃣ Copy the `.env.example` file to `.env` and adjust the variables:
@@ -102,7 +102,7 @@ docker-compose exec app php artisan migrate --seed
 
 ---
 
-## 🌐 **Available Endpoints**
+## **Available Endpoints**
 
 | Method  | Endpoint                   | Description                                                           |
 | ------- | -------------------------- | --------------------------------------------------------------------- |
@@ -144,7 +144,7 @@ Next.js 15 frontend application built with TypeScript following Clean Architectu
 1. **Clone the repository**
 
    ```bash
-   git clone
+   git clone git@github.com:Lerooks/netshow.git
    cd frontend
    ```
 
